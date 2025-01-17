@@ -11,3 +11,6 @@ It is important to know memory management, if we know how JavaScript allocates i
 
 ## What is memory management?
 The practice of managing and coordinating memory in your software is known as memory management. It makes sure that memory blocks are correctly managed and distributed so that the application and other processes that are currently running have the memory they require to complete their tasks.
+
+
+* [Memory Life Cycle](/Memory%20Management/memory_cycle.md)
