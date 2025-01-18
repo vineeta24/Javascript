@@ -8,7 +8,7 @@ The 3 phases or parts of the memory life cycle which are the same for all progra
 The second part is explicit in all languages. The first and last parts are explicit in low-level languages but are mostly implicit in high-level languages like JavaScript.
 
 
-### Allocation in JavaScript
+### 1. Allocation in JavaScript
 **Value initialization**
 In order to not bother the programmer with allocations, JavaScript will automatically allocate memory when values are initially declared.
 
@@ -44,11 +44,11 @@ const e = document.createElement("div"); // allocates a DOM element
 
 ```
 
-### Using values
+### 2. Using values
 Using values basically means reading and writing in allocated memory. This can be done by reading or writing the value of a variable or an object property or even passing an argument to a function.
 
 
-### Release when the memory is not needed anymore
+### 3. Release when the memory is not needed anymore
 The majority of memory management issues occur at this phase. The most difficult aspect of this stage is determining when the allocated memory is no longer needed.
 
 Low-level languages require the developer to manually determine at which point in the program the allocated memory is no longer needed and to release it.
